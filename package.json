@@ -1,0 +1,30 @@
+{
+  "name": "currency_converter",
+  "version": "1.0.0",
+  "description": " currency converter app that can work both online and offline using sevice worker,cache api and indexed db",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krofax/currency_converter.git"
+  },
+  "keywords": [
+    "Service-Worker",
+    "indexed-db",
+    "cache api",
+    "fetch api"
+  ],
+  "author": "Blessing Krofegha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/krofax/currency_converter/issues"
+  },
+  "homepage": "https://github.com/krofax/currency_converter#readme"
+}
