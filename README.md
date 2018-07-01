@@ -6,4 +6,4 @@ Currency converter will be offline firts and should be created with ES6,service 
 
 
  made with so much :heart: from krofax and gratitude.
-https://krofax.github.io/currency_converter/main.html
+https://krofax.github.io/currency-converter/main.html
