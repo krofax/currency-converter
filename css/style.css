@@ -1,0 +1,39 @@
+body{
+  background: #f2f2f2;
+}
+
+.main-content{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    box-shadow: 0 5px 11px 0 rgba(0,0,0,.18), 0 4px 15px 0 rgba(0,0,0,.15);
+    padding: 30px;
+    background: #fff;
+  }
+.header{
+  font-weight: 400;
+  color: #9a4b31;
+  margin-bottom: 40px;
+  }
+ 
+.distributed {
+    margin-top: 40px;
+    color: #8f9296;
+
+}
+.btn{
+  margin: 15px;
+
+}
+
+.social-buttons li a {
+  line-height: 30px;
+  border-radius: 100%;
+  font-size: 12px;
+  display: inline-block;
+  height: 30px;
+  color: #fff;
+  width: 30px;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
